@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+      '@assets/scss/common.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -42,6 +43,12 @@ export default {
   /*
   ** Build configuration
   */
+  styleResources: {
+    scss: [
+        '@assets/scss/mixins.scss'
+    ]
+  },
+
   build: {
     /*
     ** You can extend webpack config here
