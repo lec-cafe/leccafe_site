@@ -1,0 +1,49 @@
+@import "./mixins.scss";
+@import "./component/button.scss";
+
+//フォントサイズ
+.c-fs24 {
+  font-size: 24px;
+}
+.c-fs20 {
+  font-size: 20px;
+}
+.c-fs16 {
+  font-size: 16px;
+}
+//テキストカラー
+.c-textRed {
+  color: #E15F52;
+}
+//ボタン
+.c-buttonWhite {
+  @include buttonWhite();
+}
+.c-buttonRed {
+  @include buttonRed();
+}
+//余白
+.c-mb10{
+  margin-bottom: 10px;
+}
+.c-mb15{
+  margin-bottom: 15px;
+}
+.c-mb20{
+  margin-bottom: 20px;
+}
+.c-mb30{
+  margin-bottom: 30px;
+}
+.c-mb40{
+  margin-bottom: 40px;
+}
+.c-mb45{
+  margin-bottom: 45px;
+}
+.c-mb50{
+  margin-bottom: 50px;
+}
+.c-mb60{
+  margin-bottom: 60px;
+}
