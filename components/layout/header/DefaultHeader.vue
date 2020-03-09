@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <div class="l-header d-flex">
-            <div class="">
-                <h1>lec café</h1>
-            </div>
-            <div class="d-flex">
-                <router-link class="c-buttonWhite" to="">資料請求</router-link>
-                <router-link class="c-buttonRed" to="">申し込み</router-link>
-            </div>
+    <header class="l-header d-flex">
+        <div class="l-header__title">
+            <img src="~/assets/images/leccafe_logo.svg" alt="">
         </div>
-    </div>
+        <div class="l-header__buttons d-flex">
+            <router-link class="l-header__buttons__btn c-buttonWhite" to="">資料請求</router-link>
+            <router-link class="l-header__buttons__btn c-buttonRed" to="">申し込み</router-link>
+        </div>
+    </header>
 </template>
 
 <script>
@@ -19,10 +17,30 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../assets/scss/component/button.scss";
+    @import "~/assets/scss/component/button.scss";
+
+    $defaultHeaderHeight: 51px;
+
     .l-header {
-        height: 60px;
+        height: $defaultHeaderHeight;
         box-sizing: border-box;
         border-bottom: 1px solid;
+        padding: 9px;
+        justify-content: space-between;
+        &__title {
+            width: 120px;
+            height: 34px;
+            h1 {
+                font-size: 30px;
+            }
+        }
+        &__buttons {
+            height: 32px;
+            &__btn {
+                padding: 12px;
+                font-size: 12px;
+                margin-left: 7px;
+            }
+        }
     }
 </style>

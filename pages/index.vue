@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="p-container">
+            <DefaultHeader />
             <TopHeading />
             <TopMerit />
             <TopCurriculum />
@@ -12,7 +13,7 @@
 </template>
 
 <script>
-    // import DefaultHeader from "./components/layout/header";
+    import DefaultHeader from "~/components/layout/header/DefaultHeader.vue";
     import TopHeading from "~/components/TopHeading.vue"
     import TopMerit from "~/components/TopMerit.vue"
     import TopCurriculum from "~/components/TopCurriculum.vue"
@@ -23,7 +24,7 @@
     export default {
         name: "index",
         components: {
-            // DefaultHeader,
+            DefaultHeader,
             TopHeading,
             TopMerit,
             TopCurriculum,
