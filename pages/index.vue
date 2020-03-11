@@ -22,7 +22,6 @@
     import TopJoin from "~/pages/-TopJoin.vue"
 
     export default {
-        name: "index",
         components: {
             DefaultHeader,
             TopHeading,
