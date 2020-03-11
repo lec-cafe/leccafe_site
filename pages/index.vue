@@ -42,12 +42,4 @@
     .p-container {
         @include container();
     }
-    p {
-        font-size: 14px;
-    }
-    .p-top__titles {
-        text-align: center;
-        margin: 40px auto;
-        font-size: 40px;
-    }
 </style>
