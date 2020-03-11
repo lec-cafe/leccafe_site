@@ -4,8 +4,8 @@
             <img src="~/assets/images/leccafe_logo.svg" alt="">
         </div>
         <div class="l-header__buttons d-flex">
-            <router-link class="l-header__buttons__btn c-buttonWhite" to="">資料請求</router-link>
-            <router-link class="l-header__buttons__btn c-buttonRed" to="">申し込み</router-link>
+            <router-link class="l-header__buttonsBtn c-buttonWhite" to="">資料請求</router-link>
+            <router-link class="l-header__buttonsBtn c-buttonRed" to="">申し込み</router-link>
         </div>
     </header>
 </template>
@@ -35,7 +35,7 @@
         }
         &__buttons {
             height: 32px;
-            &__btn {
+            &Btn {
                 padding: 12px;
                 font-size: 12px;
                 margin-left: 7px;
