@@ -24,7 +24,7 @@
     .l-header {
         height: $defaultHeaderHeight;
         box-sizing: border-box;
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #00000029;
         padding: 9px;
         justify-content: space-between;
         &__title {
