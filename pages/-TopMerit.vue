@@ -4,7 +4,7 @@
             <h1 class="p-top__titles c-textRed">Merit</h1>
 
             <div class="p-top__meritContentsSectionRight">
-                <img class="p-top__meritContentsSectionRightImage c-mb20" src="~/assets/images/p-merit_img01@2x.png" alt="スクールイラスト">
+                <img class="p-top__meritContentsSectionRightImage" src="~/assets/images/p-merit_img01@2x.png" alt="スクールイラスト">
                 <div class="p-top__meritContentsSectionRightDescription">
                     <span class="p-top__meritContentsSectionRightDescriptionNumber">01</span>
                     <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">制作会社運営スクール</h2>
@@ -13,7 +13,7 @@
             </div>
 
             <div class="p-top__meritContentsSectionLeft">
-                <img class="p-top__meritContentsSectionLeftImage c-mb20" src="~/assets/images/p-merit_img02@2x.png" alt="スクールイラスト">
+                <img class="p-top__meritContentsSectionLeftImage" src="~/assets/images/p-merit_img02@2x.png" alt="スクールイラスト">
                 <div class="p-top__meritContentsSectionLeftDescription">
                     <span class="p-top__meritContentsSectionLeftDescriptionNumber">02</span>
                     <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">講師はプロのエンジニア</h2>
@@ -22,7 +22,7 @@
             </div>
 
             <div class="p-top__meritContentsSectionRight">
-                <img class="p-top__meritContentsSectionRightImage c-mb20" src="~/assets/images/p-merit_img03@2x.png" alt="スクールイラスト">
+                <img class="p-top__meritContentsSectionRightImage" src="~/assets/images/p-merit_img03@2x.png" alt="スクールイラスト">
                 <div class="p-top__meritContentsSectionRightDescription">
                     <span class="p-top__meritContentsSectionRightDescriptionNumber">03</span>
                     <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">個別のカリキュラム</h2>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="p-top__meritContentsSectionLeft">
-                <img class="p-top__meritContentsSectionLeftImage c-mb20" src="~/assets/images/p-merit_img04@2x.png" alt="スクールイラスト">
+                <img class="p-top__meritContentsSectionLeftImage" src="~/assets/images/p-merit_img04@2x.png" alt="スクールイラスト">
                 <div class="p-top__meritContentsSectionLeftDescription">
                     <span class="p-top__meritContentsSectionLeftDescriptionNumber">04</span>
                     <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">アウトプット中心</h2>
