@@ -14,12 +14,12 @@
 
 <script>
     import DefaultHeader from "~/components/layout/header/DefaultHeader.vue";
-    import TopHeading from "~/components/TopHeading.vue"
-    import TopMerit from "~/components/TopMerit.vue"
-    import TopCurriculum from "~/components/TopCurriculum.vue"
-    import TopReason from "~/components/TopReason.vue"
-    import TopAccess from "~/components/TopAccess.vue"
-    import TopJoin from "~/components/TopJoin.vue"
+    import TopHeading from "~/pages/-TopHeading.vue"
+    import TopMerit from "~/pages/-TopMerit.vue"
+    import TopCurriculum from "~/pages/-TopCurriculum.vue"
+    import TopReason from "~/pages/-TopReason.vue"
+    import TopAccess from "~/pages/-TopAccess.vue"
+    import TopJoin from "~/pages/-TopJoin.vue"
 
     export default {
         name: "index",
