@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 	.p-top__heading {
-		padding-top: 30px;
+		padding: 30px 20px 0;
 		&__title {
 			img {
 				width: 200px;
