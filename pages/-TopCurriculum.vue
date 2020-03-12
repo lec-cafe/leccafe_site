@@ -85,6 +85,7 @@ export default {
             margin: 0 auto;
             margin-bottom: 55px;
             background-color: #FFEDE6;
+            position: relative;
             &Title {
                 text-align: left;
                 margin-bottom: 20px;
@@ -114,9 +115,25 @@ export default {
                     }
                 }
             }
+            &::after {
+                content: '';
+                display: block;
+                padding: 70% 50%;
+                border: 2px solid #FFEDE6;
+                position: absolute;
+                bottom: -3%;
+                right: -5%;
+                z-index: -1;
+            }
             &:nth-child(odd) {
                 background-color: #fff;
                 border: 2px solid #FFEDE6;
+                &::after {
+                    background-color: #FFEDE6;
+                    left: -5%;
+                    right: 5%;
+                    padding: 70% 50%;
+                }
             }
         }
     }
