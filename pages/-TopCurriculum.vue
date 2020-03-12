@@ -1,67 +1,67 @@
 <template>
-    <div class="p-top__curriculum">
+    <div class="p-curriculum">
         <h1 class="p-top__titles c-textRed">Curriculum</h1>
 
-        <div class="p-top__curriculumSection">
-            <div class="p-top__curriculumSectionTitle">
+        <div class="p-curriculum__section">
+            <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
-            <div class="p-top__curriculumSectionContent">
-                <img class="p-top__curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+            <div class="p-curriculum__sectionContent">
+                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
                 <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
-                <ul class="p-top__curriculumSectionContentCategories">
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                <ul class="p-curriculum__categories">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="p-top__curriculumSection">
-            <div class="p-top__curriculumSectionTitle">
+        <div class="p-curriculum__section">
+            <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
-            <div class="p-top__curriculumSectionContent">
-                <img class="p-top__curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+            <div class="p-curriculum__sectionContent">
+                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
                 <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
-                <ul class="p-top__curriculumSectionContentCategories">
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                <ul class="p-curriculum__categories">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="p-top__curriculumSection">
-            <div class="p-top__curriculumSectionTitle">
+        <div class="p-curriculum__section">
+            <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
-            <div class="p-top__curriculumSectionContent">
-                <img class="p-top__curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+            <div class="p-curriculum__sectionContent">
+                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
                 <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
-                <ul class="p-top__curriculumSectionContentCategories">
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                <ul class="p-curriculum__categories">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
-                    <li class="p-top__curriculumSectionContentCategoriesItem">
+                    <li class="p-curriculum__categoriesItem">
                         <router-link class="c-fs14" to="">HTML</router-link>
                     </li>
                 </ul>
@@ -77,9 +77,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .p-top__curriculum {
+    .p-curriculum {
         text-align: center;
-        &Section {
+        &__section {
             width: 330px;
             padding: 40px;
             margin: 0 auto;
@@ -99,7 +99,7 @@ export default {
                 p {
                     text-align: left;
                 }
-                &Categories {
+                .p-curriculum__categories {
                     padding: 0;
                     display: flex;
                     &Item {
