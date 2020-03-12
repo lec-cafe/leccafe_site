@@ -1,29 +1,31 @@
 <template>
     <div>
         <div class="p-container">
-            <TopHeading />
-            <TopMerit />
-            <TopCurriculum />
-            <TopReason />
-            <TopAccess />
-            <TopJoin />
+            <div class="p-top">
+                <DefaultHeader />
+                <TopHeading />
+                <TopMerit />
+                <TopCurriculum />
+                <TopReason />
+                <TopAccess />
+                <TopJoin />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    // import DefaultHeader from "./components/layout/header";
-    import TopHeading from "~/components/TopHeading.vue"
-    import TopMerit from "~/components/TopMerit.vue"
-    import TopCurriculum from "~/components/TopCurriculum.vue"
-    import TopReason from "~/components/TopReason.vue"
-    import TopAccess from "~/components/TopAccess.vue"
-    import TopJoin from "~/components/TopJoin.vue"
+    import DefaultHeader from "~/components/layout/header/DefaultHeader.vue";
+    import TopHeading from "~/pages/-TopHeading.vue"
+    import TopMerit from "~/pages/-TopMerit.vue"
+    import TopCurriculum from "~/pages/-TopCurriculum.vue"
+    import TopReason from "~/pages/-TopReason.vue"
+    import TopAccess from "~/pages/-TopAccess.vue"
+    import TopJoin from "~/pages/-TopJoin.vue"
 
     export default {
-        name: "index",
         components: {
-            // DefaultHeader,
+            DefaultHeader,
             TopHeading,
             TopMerit,
             TopCurriculum,
@@ -39,13 +41,5 @@
     @import "../assets/scss/component/button.scss";
     .p-container {
         @include container();
-    }
-    p {
-        font-size: 14px;
-    }
-    .p-top__titles {
-        text-align: center;
-        margin: 40px auto;
-        font-size: 40px;
     }
 </style>

@@ -1,15 +1,33 @@
+@import "./foundation/base.scss";
 @import "./mixins.scss";
 @import "./component/button.scss";
+@import "./component/title.scss";
 
 //フォントサイズ
+.c-fs60 {
+  font-size: 60px;
+}
 .c-fs24 {
   font-size: 24px;
+}
+.c-fs22 {
+  font-size: 22px;
 }
 .c-fs20 {
   font-size: 20px;
 }
+.c-fs18 {
+  font-size: 18px;
+}
 .c-fs16 {
   font-size: 16px;
+}
+.c-fs14 {
+  font-size: 14px;
+}
+//フォントウェイト
+.c-fwBold {
+  font-weight: bold;
 }
 //テキストカラー
 .c-textRed {

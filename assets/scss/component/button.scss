@@ -1,13 +1,16 @@
 @mixin buttonWhite() {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   border-radius: 30px;
+  background-color: #fff;
   border: solid 2px #E15F52;
   color: #E15F52;
 }
 @mixin buttonRed() {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   border-radius: 30px;
