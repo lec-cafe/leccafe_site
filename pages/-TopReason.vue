@@ -4,9 +4,9 @@
         <div class="p-reason__point">
             <img class="p-reason__pointImage" src="~/assets/images/p-reason_heading01@2x.png" alt="手のイラスト">
             <div class="p-reason__pointBox">
-                <img src="~/assets/images/p-reason_img01@2x.png" alt="">
+                <img class="p-reason__pointBoxImage" src="~/assets/images/p-reason_img01@2x.png" alt="">
                 <h3 class="c-fs20 c-textRed c-fwBold">現場で使える技術を</h3>
-                <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <p class="p-reason__pointBoxDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
             </div>
         </div>
 
@@ -63,18 +63,18 @@ export default {
             padding: 0 42px 30px;
             text-align: center;
             position: relative;
-            img {
-                display: inline-block;
-                width: 80px;
-                height: 80px;
-                position: relative;
-                top: -50px;
-            }
-            p {
-                text-align: left;
-                line-height: 2em;
-                letter-spacing: 0.1em;
-            }
+        }
+        &__pointBoxImage {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            position: relative;
+            top: -50px;
+        }
+        &__pointBoxDescription {
+            text-align: left;
+            line-height: 2em;
+            letter-spacing: 0.1em;
         }
     }
 </style>
