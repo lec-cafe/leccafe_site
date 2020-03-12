@@ -52,28 +52,28 @@ export default {
         padding: 0 20px;
         &__point {
             padding-bottom: 40px;
-            .p-reason__pointImage {
-                width: 72px;
-                height: 72px;
-                margin-left: 10px;
-            }
-            .p-reason__pointBox {
-                background-color: #ffffff;
-                padding: 0 42px 30px;
-                text-align: center;
+        }
+        &__pointImage {
+            width: 72px;
+            height: 72px;
+            margin-left: 10px;
+        }
+        &__pointBox {
+            background-color: #ffffff;
+            padding: 0 42px 30px;
+            text-align: center;
+            position: relative;
+            img {
+                display: inline-block;
+                width: 80px;
+                height: 80px;
                 position: relative;
-                img {
-                    display: inline-block;
-                    width: 80px;
-                    height: 80px;
-                    position: relative;
-                    top: -50px;
-                }
-                p {
-                    text-align: left;
-                    line-height: 2em;
-                    letter-spacing: 0.1em;
-                }
+                top: -50px;
+            }
+            p {
+                text-align: left;
+                line-height: 2em;
+                letter-spacing: 0.1em;
             }
         }
     }
