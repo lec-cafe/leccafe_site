@@ -8,17 +8,17 @@
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
-                <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                 </ul>
             </div>
@@ -30,17 +30,17 @@
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
-                <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                 </ul>
             </div>
@@ -52,17 +52,17 @@
                 <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculumImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
-                <p>説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                     <li class="p-curriculum__categoriesItem">
-                        <router-link class="c-fs14" to="">HTML</router-link>
+                        <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
                     </li>
                 </ul>
             </div>
@@ -86,35 +86,6 @@ export default {
             margin-bottom: 55px;
             background-color: #FFEDE6;
             position: relative;
-            &Title {
-                text-align: left;
-                margin-bottom: 20px;
-            }
-            &Content {
-                img {
-                    width: 100px;
-                    height: 90px;
-                    margin-bottom: 10px;
-                }
-                p {
-                    text-align: left;
-                }
-                .p-curriculum__categories {
-                    padding: 0;
-                    display: flex;
-                    &Item {
-                        list-style: none;
-                        margin-right: 5px;
-                        background-color: #E15F52;
-                        padding: 5px 8px;
-                        border-radius: 5px;
-                        a {
-                            color: #fff;
-                            letter-spacing: 0.1em;
-                        }
-                    }
-                }
-            }
             &::after {
                 content: '';
                 display: block;
@@ -135,6 +106,34 @@ export default {
                     padding: 70% 50%;
                 }
             }
+        }
+        &__sectionTitle {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        &__sectionContentImage {
+            width: 100px;
+            height: 90px;
+            margin-bottom: 10px;
+        }
+        &__sectionContentDescription {
+            text-align: left;
+        }
+        &__categories {
+            padding: 0;
+            display: flex;
+        }
+        &__categoriesItem {
+            list-style: none;
+            margin-right: 5px;
+            background-color: #E15F52;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+        &__categoriesItemText {
+            color: #fff;
+            letter-spacing: 0.1em;
+            font-size: 14px;
         }
     }
 </style>
