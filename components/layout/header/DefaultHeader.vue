@@ -1,7 +1,7 @@
 <template>
     <header class="l-header d-flex">
         <div class="l-header__title">
-            <img src="~/assets/images/leccafe_logo.svg" alt="">
+            <img src="~/assets/images/leccafe_logo.svg" alt="lec cafeロゴ">
         </div>
         <div class="l-header__buttons d-flex">
             <router-link class="l-header__buttonsBtn c-buttonWhite" to="">資料請求</router-link>
@@ -23,23 +23,21 @@
     .l-header {
         height: $defaultHeaderHeight;
         box-sizing: border-box;
-        border-bottom: 1px solid #00000029;
+        box-shadow: 0px 4px 3px -3px #00000029;
+        border-top: 3px solid #E15F52;
         padding: 9px;
         justify-content: space-between;
         &__title {
             width: 120px;
             height: 34px;
-            h1 {
-                font-size: 30px;
-            }
         }
         &__buttons {
             height: 32px;
-            &Btn {
-                padding: 12px;
-                font-size: 12px;
-                margin-left: 7px;
-            }
+        }
+        &__buttonsBtn {
+            padding: 12px;
+            font-size: 12px;
+            margin-left: 7px;
         }
     }
 </style>
