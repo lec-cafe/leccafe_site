@@ -1,7 +1,7 @@
 <template>
-    <div class="p-top__join">
+    <div class="p-join">
         <h1>Join</h1>
-        <div class="p-top_join__box">
+        <div class="p-join__box">
             <h3>詳しく知りたい方は<br>まずは資料請求！</h3>
             <div class="p-claim">
                 <a>資料請求</a>  
@@ -20,32 +20,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .p-top__join {
+    .p-join {
         background-color: #E15F52;
         text-align: center;
         height: 560px;
         color: #FFFFFF;
     }
-    .p-top__join h1 {
+    .p-join h1 {
         padding-top: 50px;
         font-family: Voces,Voces;
         font-size: 40px;
     }
-    .p-top_join__box {
+    .p-join__box {
         color: #FFFFFF;
         border: solid 4px #ffffff;
-        // border-radius: 10px;
         margin-top: 50px;
         height: 346px;
         margin-right: 20px;
         margin-left: 20px;
     }
-    .p-top_join__box h3 {
+    .p-join__box h3 {
         font-size: 18px;
         margin-top: 60px;
         font-weight: bold;
         margin-bottom: 50px;
-        // font-family: 游ゴシック体;
     }
     .p-claim {
         display: block;
