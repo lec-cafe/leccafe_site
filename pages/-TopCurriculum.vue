@@ -86,26 +86,26 @@ export default {
             margin-bottom: 55px;
             background-color: #FFEDE6;
             position: relative;
-            &::after {
-                content: '';
-                display: block;
-                padding: 70% 50%;
-                border: 2px solid #FFEDE6;
-                position: absolute;
-                bottom: -3%;
-                right: -5%;
-                z-index: -1;
-            }
-            &:nth-child(odd) {
-                background-color: #fff;
-                border: 2px solid #FFEDE6;
-                &::after {
-                    background-color: #FFEDE6;
-                    left: -5%;
-                    right: 5%;
-                    padding: 70% 50%;
-                }
-            }
+        }
+        &__section::after {
+            content: '';
+            display: block;
+            padding: 70% 50%;
+            border: 2px solid #FFEDE6;
+            position: absolute;
+            bottom: -3%;
+            right: -5%;
+            z-index: -1;
+        }
+        &__section:nth-child(odd) {
+            background-color: #fff;
+            border: 2px solid #FFEDE6;
+        }
+        &__section:nth-child(odd)::after {
+            background-color: #FFEDE6;
+            left: -5%;
+            right: 5%;
+            padding: 70% 50%;
         }
         &__sectionTitle {
             text-align: left;
