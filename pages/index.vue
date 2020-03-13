@@ -9,6 +9,7 @@
                 <TopReason />
                 <TopAccess />
                 <TopJoin />
+                <DefaultFooter />
             </div>
         </div>
     </div>
@@ -22,6 +23,7 @@
     import TopReason from "~/pages/-TopReason.vue"
     import TopAccess from "~/pages/-TopAccess.vue"
     import TopJoin from "~/pages/-TopJoin.vue"
+    import DefaultFooter from "~/components/layout/footer/DefaultFooter.vue";
 
     export default {
         components: {
@@ -31,7 +33,8 @@
             TopCurriculum,
             TopReason,
             TopAccess,
-            TopJoin
+            TopJoin,
+            DefaultFooter
         }
     }
 </script>

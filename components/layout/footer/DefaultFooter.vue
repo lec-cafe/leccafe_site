@@ -1,15 +1,29 @@
 <template>
     <div>
-        <div class="d-flex align-items-center">
-            <div>
-                <h1>lec café</h1>
-            </div>
-            <div>
-                <a href="">メリット</a>
-                <a href="">カリキュラム</a>
-                <a href="">選ばれる理由</a>
-                <a href="">アクセス</a>
-            </div>
+        <div class="l-footer">
+            <ul class="l-footer__menus">
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">メリット</router-link>
+                </li>
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">カリキュラム</router-link>
+                </li>
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">選ばれる理由</router-link>
+                </li>
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">アクセス</router-link>
+                </li>
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">資料請求</router-link>
+                </li>
+                <li class="l-footer__menusItem">
+                    <router-link class="c-textRed c-fwBold c-fs14" to="">申し込み</router-link>
+                </li>
+            </ul>
+            <hr class="l-footer__hr">
+            <img class="l-footer__logo" src="~/assets/images/leccafe_logo.svg" alt="lec cafeロゴ">
+            <p class="c-fs14">© 2020 Lec Café inc.</p>
         </div>
     </div>
 </template>
@@ -20,4 +34,27 @@
 </script>
 
 <style lang="scss" scoped>
+    .l-footer {
+        width: 275px;
+        height: 380px;
+        margin: 50px auto;
+        text-align: center;
+        &__menus {
+            padding: 0;
+        }
+        &__menusItem {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        &__hr {
+            height: 2px;
+            background-color: #E15F52;
+            border: none;
+        }
+        &__logo {
+            width: 120px;
+            height: 26px;
+            margin-bottom: 48px;
+        }
+    }
 </style>
