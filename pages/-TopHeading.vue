@@ -64,4 +64,15 @@ export default {
 			margin-bottom: 20px;
 		}
 	}
+	@media screen and (min-width: 780px) {
+		.p-heading {
+			margin-left: 400px;
+		}
+		.p-heading__descriptionImage {
+			margin-right: 530px;
+		}
+		.p-heading__descriptionBtns {
+			margin-left: -400px;
+		}
+	}
 </style>
