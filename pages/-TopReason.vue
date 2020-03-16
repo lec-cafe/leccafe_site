@@ -1,6 +1,6 @@
 <template>
     <div class="p-reason">
-        <h1 class="p-top__titles c-textRed">Reason</h1>
+        <h1 class="c-titles c-textRed">Reason</h1>
         <div class="p-reason__point">
             <img class="p-reason__pointImage" src="~/assets/images/p-reason_heading01@2x.png" alt="手のイラスト">
             <div class="p-reason__pointBox">
