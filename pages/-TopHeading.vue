@@ -52,6 +52,12 @@ export default {
 			width: 160px;
 			height: 50px;
 		}
+		&__descriptionBtnsItem:nth-child(odd):hover {
+            color: #E15F52;
+		}
+		&__descriptionBtnsItem:nth-child(even):hover {
+            color: #ffffff;
+		}
 		&__descriptionImage {
 			width: 320px;
 			height: 250px;

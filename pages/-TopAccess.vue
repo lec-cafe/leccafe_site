@@ -45,5 +45,8 @@ export default {
             margin: 0 auto;
             line-height: 50px;
         }
+        &__btn a:hover {
+            color: #E15F52;
+        }
     }
 </style>

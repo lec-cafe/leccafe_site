@@ -3,22 +3,22 @@
         <div class="l-footer">
             <ul class="l-footer__menus">
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">メリット</router-link>
+                    <router-link to="">メリット</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">カリキュラム</router-link>
+                    <router-link to="">カリキュラム</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">選ばれる理由</router-link>
+                    <router-link to="">選ばれる理由</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">アクセス</router-link>
+                    <router-link to="">アクセス</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">資料請求</router-link>
+                    <router-link to="">資料請求</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link class="c-textRed c-fwBold c-fs14" to="">申し込み</router-link>
+                    <router-link to="">申し込み</router-link>
                 </li>
             </ul>
             <hr class="l-footer__hr">
@@ -45,6 +45,11 @@
         &__menusItem {
             list-style: none;
             margin-bottom: 30px;
+        }
+        &__menusItem a {
+            color:#E15F52;
+            font-weight: bold;
+            font-size: 14px;
         }
         &__hr {
             height: 2px;

@@ -39,5 +39,11 @@
             font-size: 12px;
             margin-left: 7px;
         }
+        &__buttonsBtn:nth-child(odd):hover {
+            color: #E15F52;
+        }
+        &__buttonsBtn:nth-child(even):hover {
+            color: #ffffff;
+        }
     }
 </style>
