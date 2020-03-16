@@ -41,6 +41,11 @@ export default {
   */
   modules: [
   ],
+  webfontloader: {
+    google: {
+      families: ['Voces']
+    }
+  },
   /*
   ** Build configuration
   */

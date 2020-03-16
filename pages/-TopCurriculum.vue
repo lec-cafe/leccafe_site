@@ -1,6 +1,6 @@
 <template>
     <div class="p-curriculum">
-        <h1 class="p-top__titles c-textRed">Curriculum</h1>
+        <h1 class="c-titles c-textRed">Curriculum</h1>
 
         <div class="p-curriculum__section">
             <div class="p-curriculum__sectionTitle">
