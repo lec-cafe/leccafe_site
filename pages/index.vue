@@ -1,7 +1,7 @@
 <template>
     <div>
+        <DefaultHeader />
         <div class="p-container">
-            <DefaultHeader />
             <TopHeading />
             <TopMerit />
             <TopCurriculum />
