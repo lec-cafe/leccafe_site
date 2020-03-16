@@ -1,15 +1,13 @@
 <template>
     <div>
-        <div class="p-container">
-            <DefaultHeader />
-            <TopHeading />
-            <TopMerit />
-            <TopCurriculum />
-            <TopReason />
-            <TopAccess />
-            <TopJoin />
-            <DefaultFooter />
-        </div>
+        <DefaultHeader />
+        <TopHeading />
+        <TopMerit />
+        <TopCurriculum />
+        <TopReason />
+        <TopAccess />
+        <TopJoin />
+        <DefaultFooter />
     </div>
 </template>
 
