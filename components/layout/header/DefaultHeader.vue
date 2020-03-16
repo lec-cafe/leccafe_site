@@ -18,15 +18,15 @@
 <style lang="scss" scoped>
     @import "~/assets/scss/component/button.scss";
 
-    $defaultHeaderHeight: 51px;
 
     .l-header {
-        height: $defaultHeaderHeight;
+        height: 51px;
         box-sizing: border-box;
         box-shadow: 0px 4px 3px -3px #00000029;
         border-top: 3px solid #E15F52;
         padding: 9px;
         justify-content: space-between;
+        align-items: center;
         &__title {
             width: 120px;
             height: 34px;
@@ -44,6 +44,21 @@
         }
         &__buttonsBtn:nth-child(even):hover {
             color: #ffffff;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .l-header {
+            height: 70px;
+            &__buttons {
+                height: 40px;
+            }
+            &__buttonsBtn {
+                width: 180px;
+                height: 40px;
+                font-size: 18px;
+                font-weight: bold;
+            }
         }
     }
 </style>
