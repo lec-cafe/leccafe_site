@@ -2,7 +2,7 @@
 	<div class="p-heading">
 		<img class="p-heading__logo" src="~/assets/images/leccafe_logo.svg" alt="lec cafeロゴ">
 		<hr class="p-heading__hr">
-		<h2 class="c-fs18 c-fwBold">手軽に始める<br><br>プログラミング<br><br>スクール</h2>
+		<h2 class="p-heading__title">手軽に始める<br><br>プログラミング<br><br>スクール</h2>
 		<div class="p-heading__description">
 			<img class="p-heading__descriptionImage" src="~/assets/images/p-hero_img01@2x.png" alt="スクールイラスト">
 			<p class="p-heading__descriptionText">Lec Cafeは学生や社会人を対象とした<br>大阪のプログラミングスクールです。</p>
@@ -21,7 +21,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/scss/mixins/container.scss";
 	.p-heading {
+		@include container();
 		padding: 30px 20px 0;
 		&__logo {
 			width: 200px;
@@ -32,6 +34,10 @@ export default {
 			height: 1px;
 			width: 160px;
 			background-color: #E15F52;
+		}
+		&__title {
+			font-size: 18px;
+			font-weight: bold;
 		}
 		&__description {
 			text-align: right;
@@ -60,19 +66,42 @@ export default {
 		}
 		&__descriptionImage {
 			width: 320px;
-			height: 250px;
 			margin-bottom: 20px;
 		}
 	}
-	@media screen and (min-width: 780px) {
-		.p-heading {
-			margin-left: 400px;
+	@media screen and (min-width: 768px) {
+	.p-heading {
+		height: 700px;
+		&__logo {
+			width: 302px;
+			height: 65px;
 		}
-		.p-heading__descriptionImage {
-			margin-right: 530px;
+		&__hr {
+			width: 244px;
 		}
-		.p-heading__descriptionBtns {
-			margin-left: -400px;
+		&__title {
+			font-size: 24px;
+		}
+		&__descriptionImage {
+			width: 600px;
+			position: relative;
+			top: -150px;
+		}
+		&__descriptionText {
+			position: relative;
+			top: -190px;
+		}
+		&__descriptionBtns {
+			position: relative;
+			top: -220px;
+			justify-content: left;
+		}
+		&__descriptionBtnsItem {
+			margin-right: 20px;
+			width: 200px;
+			height: 50px;
+			font-size: 24px;
 		}
 	}
+}
 </style>
