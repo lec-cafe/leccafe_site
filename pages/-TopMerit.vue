@@ -41,7 +41,7 @@
 
             <div class="p-merit__contentsDocument">
                 <h3 class="c-fs14 c-fwBold c-textRed c-mb20">詳しく知りたい方は<br>まずは資料請求！</h3>
-                <router-link class="c-buttonWhite c-fs20 c-fwBold" to="">資料請求</router-link>
+                <router-link to="">資料請求</router-link>
             </div>
         </div>
     </div>
@@ -55,7 +55,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .p-merit {
+@import "~/assets/scss/component/button.scss";
+
+.p-merit {
         background:linear-gradient(90deg,#E15F52 0%,#E15F52 20%,#FFEDE6 20%,#FFEDE6 100%);
         text-align: center;
         &__contentsTitle {
@@ -116,9 +118,15 @@ export default {
             line-height: 1.5em;
         }
         &__contentsDocument a {
+            @include buttonWhite();
             width: 160px;
             height: 50px;
             margin: 0 auto;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        &__contentsDocument a:hover {
+            color: #E15F52;
         }
     }
 </style>
