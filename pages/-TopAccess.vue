@@ -26,6 +26,7 @@ export default {
             font-size: 40px;
             letter-spacing: 0.2em;
             color: #E15F52;
+            font-family: 'Voces';
         }
         &__map {
             width: 335px;
