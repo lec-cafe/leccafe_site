@@ -49,4 +49,12 @@ export default {
             color: #E15F52;
         }
     }
+    @media screen and (min-width: 768px){
+        .p-access__map {
+            width: 728px;
+        }
+        .p-access__address {
+            margin-left: 360px;
+        }
+    }
 </style>
