@@ -34,10 +34,11 @@
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/scss/mixins/container.scss";
+
     .l-footer {
+        @include container();
         width: 275px;
-        height: 380px;
-        margin: 50px auto;
         text-align: center;
         &__menus {
             padding: 0;
@@ -60,6 +61,12 @@
             width: 120px;
             height: 26px;
             margin-bottom: 48px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .l-footer {
+            width: 728px;
         }
     }
 </style>
