@@ -72,7 +72,7 @@ export default {
     @media screen and (min-width: 768px){
         .p-join__box {
             width: 728px;
-            margin: 0 auto;
+            margin: 50px auto;
         }
-        }
+    }
 </style>
