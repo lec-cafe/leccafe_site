@@ -64,12 +64,13 @@ export default {
         background:linear-gradient(90deg,#E15F52 0%,#E15F52 20%,#FFEDE6 20%,#FFEDE6 100%);
         &__container {
             @include container();
+            padding-bottom: 80px;
         }
         text-align: center;
         &__contentsTitle {
             text-align: center;
-            margin: 40px auto 0;
-            padding-top: 40px;
+            margin: 0 auto 0;
+            padding-top: 10px;
             font-size: 40px;
             letter-spacing: 0.2em;
             color: #E15F52;
@@ -117,7 +118,7 @@ export default {
             margin: 0 auto 0 0;
         }
         &__contentsDocument {
-            padding: 80px 0;
+            padding: 80px 0 0;
         }
         &__contentsDocument h3 {
             letter-spacing: 0.1em;
@@ -139,6 +140,12 @@ export default {
     @media screen and (min-width: 768px) {
         .p-merit {
             background:linear-gradient(90deg,#E15F52 0%,#E15F52 43%,#FFEDE6 43%,#FFEDE6 100%);
+            &__container {
+                padding-bottom: 90px;
+            }
+            &__contentsTitle {
+                padding-top: 40px;
+            }
             &__contentsSection {
                 width: 540px;
             }
