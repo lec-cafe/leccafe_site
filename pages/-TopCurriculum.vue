@@ -77,7 +77,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/scss/mixins/container.scss";
+
     .p-curriculum {
+        @include container();
         text-align: center;
         &__section {
             width: 330px;
@@ -134,6 +137,31 @@ export default {
             color: #fff;
             letter-spacing: 0.1em;
             font-size: 14px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .p-curriculum {
+            &__section {
+                width: 540px;
+                height: 410px;
+            }
+            &__section:nth-child(even) {
+                margin: 0 auto 150px 0;
+            }
+            &__section:nth-child(odd) {
+                margin: 0 0 150px auto;
+            }
+            &__section:nth-child(even)::after {
+                padding: 35% 50%;
+                bottom: -15%;
+                right: -15%;
+            }
+            &__section:nth-child(odd)::after {
+                padding: 35% 50%;
+                bottom: -15%;
+                left: -15%;
+            }
         }
     }
 </style>

@@ -72,38 +72,39 @@ export default {
 	}
 
 	@media screen and (min-width: 768px) {
-		.p-heading {
-			height: 700px;
-			&__logo {
-				width: 302px;
-				height: 65px;
-			}
-			&__hr {
-				width: 244px;
-			}
-			&__title {
-				font-size: 24px;
-			}
-			&__descriptionImage {
-				width: 600px;
-				position: relative;
-				top: -150px;
-			}
-			&__descriptionText {
-				position: relative;
-				top: -190px;
-			}
-			&__descriptionBtns {
-				position: relative;
-				top: -220px;
-				justify-content: left;
-			}
-			&__descriptionBtnsItem {
-				margin-right: 20px;
-				width: 200px;
-				height: 50px;
-				font-size: 24px;
-			}
+	.p-heading {
+		height: 700px;
+		&__logo {
+			width: 302px;
+			height: 65px;
+		}
+		&__hr {
+			width: 244px;
+		}
+		&__title {
+			font-size: 24px;
+		}
+		&__descriptionImage {
+			width: 600px;
+			position: relative;
+			top: -150px;
+		}
+		&__descriptionText {
+			position: relative;
+			top: -190px;
+		}
+		&__descriptionBtns {
+			position: relative;
+			top: -220px;
+			justify-content: left;
+		}
+		&__descriptionBtnsItem {
+			margin-right: 20px;
+			width: 200px;
+			height: 50px;
+			font-size: 24px;
 		}
 	}
+}
+
 </style>

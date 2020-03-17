@@ -68,5 +68,11 @@ export default {
             font-weight: bold;
             font-size: 20px;
         }
-    }
+    }    
+    @media screen and (min-width: 768px){
+        .p-join__box {
+            width: 728px;
+            margin: 0 auto;
+        }
+        }
 </style>
