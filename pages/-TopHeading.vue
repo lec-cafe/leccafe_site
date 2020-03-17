@@ -25,7 +25,7 @@ export default {
 
 	.p-heading {
 		@include container();
-		padding: 30px 20px 0;
+		padding: 81px 20px 0;
 		&__logo {
 			width: 200px;
 			height: 46px;
@@ -73,7 +73,8 @@ export default {
 
 	@media screen and (min-width: 768px) {
 	.p-heading {
-		height: 700px;
+		height: 800px;
+		padding-top: 100px;
 		&__logo {
 			width: 302px;
 			height: 65px;
@@ -91,11 +92,11 @@ export default {
 		}
 		&__descriptionText {
 			position: relative;
-			top: -190px;
+			top: -225px;
 		}
 		&__descriptionBtns {
 			position: relative;
-			top: -220px;
+			top: -250px;
 			justify-content: left;
 		}
 		&__descriptionBtnsItem {
