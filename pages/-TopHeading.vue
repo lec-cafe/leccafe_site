@@ -22,6 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/mixins/container.scss";
+
 	.p-heading {
 		@include container();
 		padding: 30px 20px 0;
@@ -69,6 +70,7 @@ export default {
 			margin-bottom: 20px;
 		}
 	}
+
 	@media screen and (min-width: 768px) {
 	.p-heading {
 		height: 700px;
@@ -104,4 +106,5 @@ export default {
 		}
 	}
 }
+
 </style>
