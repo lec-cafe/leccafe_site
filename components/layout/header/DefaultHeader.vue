@@ -20,6 +20,7 @@
 
 
     .l-header {
+        width: 100vw;
         height: 51px;
         box-sizing: border-box;
         box-shadow: 0px 4px 3px -3px #00000029;
@@ -27,6 +28,9 @@
         padding: 9px;
         justify-content: space-between;
         align-items: center;
+        background-color: #fff;
+        position: fixed;
+        z-index: 10;
         &__title {
             width: 120px;
             height: 34px;
