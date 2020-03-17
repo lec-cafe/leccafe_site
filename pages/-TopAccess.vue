@@ -18,25 +18,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/scss/mixins/container.scss";
+
     .p-access {
-        margin: 80px 0;
+        @include container();
+        padding-left: 20px;
+        padding-right: 20px;
         &__title {
             text-align: center;
-            margin: 0 auto 20px;
+            margin-bottom: 20px;
             font-size: 40px;
             letter-spacing: 0.2em;
             color: #E15F52;
             font-family: 'Voces';
         }
         &__map {
-            width: 335px;
+            width: 100%;
             height: 236px;
             background-color: gray;
-            margin: 0 auto 20px;
+            margin-bottom: 20px;
         }
         &__address {
             width: 335px;
-            margin: 0 auto 20px;
             font-size: 14px;
         }
         &__btn {
@@ -47,14 +50,6 @@ export default {
         }
         &__btn a:hover {
             color: #E15F52;
-        }
-    }
-    @media screen and (min-width: 768px){
-        .p-access__map {
-            width: 728px;
-        }
-        .p-access__address {
-            margin-left: 360px;
         }
     }
 </style>
