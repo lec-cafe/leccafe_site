@@ -1,6 +1,6 @@
 # leccafe_site
 
-> My cool Nuxt.js project
+http://reverent-mayer-ee0934.netlify.com/
 
 ## Build Setup
 
