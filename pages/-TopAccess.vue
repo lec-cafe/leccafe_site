@@ -22,6 +22,7 @@ export default {
 
     .p-access {
         @include container();
+        padding-top: 80px;
         padding-left: 20px;
         padding-right: 20px;
         &__title {
