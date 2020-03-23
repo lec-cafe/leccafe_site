@@ -1,5 +1,5 @@
 <template>
-    <div class="p-reason">
+    <div class="p-reason" id="anchorReason">
         <div class="p-reason__container">
             <h1 class="c-titles c-textRed">Reason</h1>
             <div class="flex">
@@ -65,7 +65,7 @@ export default {
         }
         &__pointImage {
             width: 72px;
-            height: 72px;
+            height: auto;
             margin-left: 10px;
         }
         &__pointBox {
@@ -76,7 +76,7 @@ export default {
         &__pointBoxImage {
             display: inline-block;
             width: 80px;
-            height: 80px;
+            height: auto;
             position: relative;
             top: -50px;
         }

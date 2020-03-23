@@ -3,16 +3,16 @@
         <div class="l-footer">
             <ul class="l-footer__menus">
                 <li class="l-footer__menusItem">
-                    <router-link to="">メリット</router-link>
+                    <router-link v-scroll-to="'#anchorMerit'" to>メリット</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">カリキュラム</router-link>
+                    <router-link v-scroll-to="'#anchorCurriculum'" to>カリキュラム</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">選ばれる理由</router-link>
+                    <router-link v-scroll-to="'#anchorReason'" to>選ばれる理由</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">アクセス</router-link>
+                    <router-link v-scroll-to="'#anchorAccess'" to>アクセス</router-link>
                 </li>
                 <li class="l-footer__menusItem">
                     <router-link to="">資料請求</router-link>
@@ -59,7 +59,7 @@
         }
         &__logo {
             width: 120px;
-            height: 26px;
+            height: auto;
             margin-bottom: 48px;
         }
     }

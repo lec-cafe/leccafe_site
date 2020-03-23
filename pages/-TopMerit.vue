@@ -1,5 +1,5 @@
 <template>
-    <div class="p-merit">
+    <div class="p-merit" id="anchorMerit">
         <div class="p-merit__container">
             <div class="p-merit__contents">
                 <h1 class="p-merit__contentsTitle">Merit</h1>
@@ -77,7 +77,7 @@ export default {
             font-family: 'Voces';
         }
         &__contentsSection {
-            width: 330px;
+            width: 100%;
             margin: 0 0 0 auto;
             text-align: left;
             position: relative;
@@ -86,7 +86,7 @@ export default {
             position: relative;
             top: 45px;
             width: 140px;
-            height: 150px;
+            height: auto;
             z-index: 1;
         }
         &__contentsSectionDescription {

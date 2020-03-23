@@ -1,5 +1,5 @@
 <template>
-    <div class="p-curriculum">
+    <div class="p-curriculum" id="anchorCurriculum">
         <h1 class="c-titles c-textRed">Curriculum</h1>
 
         <div class="p-curriculum__section">
@@ -27,10 +27,10 @@
         <div class="p-curriculum__section">
             <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
-                <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
+                <h2 class="c-fs24 c-fwBold">フロントコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img02@2x.png" alt="ウィンドウのイラスト">
                 <p class="p-curriculum__sectionContentDescription">FRONTが学べる</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
@@ -49,10 +49,10 @@
         <div class="p-curriculum__section">
             <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
-                <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
+                <h2 class="c-fs24 c-fwBold">BACKENDコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img03@2x.png" alt="ウィンドウのイラスト">
                 <p class="p-curriculum__sectionContentDescription">BACKENDを1から学べる</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
@@ -83,7 +83,7 @@ export default {
         @include container();
         text-align: center;
         &__section {
-            width: 330px;
+            width: 90%;
             padding: 40px;
             margin: 0 auto;
             margin-bottom: 55px;
@@ -93,7 +93,8 @@ export default {
         &__section::after {
             content: '';
             display: block;
-            padding: 70% 50%;
+            width: 100%;
+            height: 100%;
             border: 2px solid #FFEDE6;
             position: absolute;
             bottom: -3%;
@@ -108,7 +109,6 @@ export default {
             background-color: #FFEDE6;
             left: -5%;
             right: 5%;
-            padding: 70% 50%;
         }
         &__sectionTitle {
             text-align: left;
@@ -116,7 +116,7 @@ export default {
         }
         &__sectionContentImage {
             width: 100px;
-            height: 90px;
+            height: auto;
             margin-bottom: 10px;
         }
         &__sectionContentDescription {
@@ -132,6 +132,7 @@ export default {
             background-color: #E15F52;
             padding: 5px 8px;
             border-radius: 5px;
+            line-height: 1;
         }
         &__categoriesItemText {
             color: #fff;

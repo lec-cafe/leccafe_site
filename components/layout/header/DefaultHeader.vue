@@ -20,7 +20,7 @@
 
 
     .l-header {
-        width: 100vw;
+        width: 100%;
         height: 51px;
         box-sizing: border-box;
         box-shadow: 0px 4px 3px -3px #00000029;
@@ -33,7 +33,7 @@
         z-index: 10;
         &__title {
             width: 120px;
-            height: 34px;
+            height: auto;
         }
         &__buttons {
             height: 32px;
