@@ -73,7 +73,7 @@ export default {
         }
         &__buttons:nth-child(odd) a:hover {
             @include buttonRedHover();
-            background-color: rgb(221, 111, 101);
+            background-color: #EA8F86;
         }
     }    
     @media screen and (min-width: 768px){
