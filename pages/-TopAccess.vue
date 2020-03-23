@@ -39,7 +39,7 @@ export default {
             margin-bottom: 20px;
         }
         &__address {
-            width: 335px;
+            width: 100%;
             font-size: 14px;
         }
         &__btn {

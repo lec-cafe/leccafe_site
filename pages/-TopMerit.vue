@@ -77,7 +77,7 @@ export default {
             font-family: 'Voces';
         }
         &__contentsSection {
-            width: 330px;
+            width: 100%;
             margin: 0 0 0 auto;
             text-align: left;
             position: relative;

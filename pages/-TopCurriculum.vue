@@ -83,7 +83,7 @@ export default {
         @include container();
         text-align: center;
         &__section {
-            width: 330px;
+            width: 90%;
             padding: 40px;
             margin: 0 auto;
             margin-bottom: 55px;
@@ -93,7 +93,8 @@ export default {
         &__section::after {
             content: '';
             display: block;
-            padding: 70% 50%;
+            width: 100%;
+            height: 100%;
             border: 2px solid #FFEDE6;
             position: absolute;
             bottom: -3%;
@@ -108,7 +109,6 @@ export default {
             background-color: #FFEDE6;
             left: -5%;
             right: 5%;
-            padding: 70% 50%;
         }
         &__sectionTitle {
             text-align: left;
