@@ -1,5 +1,5 @@
 <template>
-    <div class="p-reason">
+    <div class="p-reason" id="anchorReason">
         <div class="p-reason__container">
             <h1 class="c-titles c-textRed">Reason</h1>
             <div class="flex">

@@ -1,5 +1,5 @@
 <template>
-    <div class="p-merit">
+    <div class="p-merit" id="anchorMerit">
         <div class="p-merit__container">
             <div class="p-merit__contents">
                 <h1 class="p-merit__contentsTitle">Merit</h1>

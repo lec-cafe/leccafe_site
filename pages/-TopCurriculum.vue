@@ -1,5 +1,5 @@
 <template>
-    <div class="p-curriculum">
+    <div class="p-curriculum" id="anchorCurriculum">
         <h1 class="c-titles c-textRed">Curriculum</h1>
 
         <div class="p-curriculum__section">

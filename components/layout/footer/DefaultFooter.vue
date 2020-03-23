@@ -3,16 +3,16 @@
         <div class="l-footer">
             <ul class="l-footer__menus">
                 <li class="l-footer__menusItem">
-                    <router-link to="">メリット</router-link>
+                    <router-link to="#anchorMerit">メリット</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">カリキュラム</router-link>
+                    <router-link to="#anchorCurriculum">カリキュラム</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">選ばれる理由</router-link>
+                    <router-link to="#anchorReason">選ばれる理由</router-link>
                 </li>
                 <li class="l-footer__menusItem">
-                    <router-link to="">アクセス</router-link>
+                    <router-link to="#anchorAccess">アクセス</router-link>
                 </li>
                 <li class="l-footer__menusItem">
                     <router-link to="">資料請求</router-link>
