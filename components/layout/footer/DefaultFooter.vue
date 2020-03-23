@@ -59,7 +59,7 @@
         }
         &__logo {
             width: 120px;
-            height: 26px;
+            height: auto;
             margin-bottom: 48px;
         }
     }
