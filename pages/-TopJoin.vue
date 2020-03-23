@@ -68,6 +68,13 @@ export default {
             font-weight: bold;
             font-size: 20px;
         }
+        &__buttons:nth-child(even) a:hover {
+            @include buttonWhiteHover();
+        }
+        &__buttons:nth-child(odd) a:hover {
+            @include buttonRedHover();
+            background-color: rgb(221, 111, 101);
+        }
     }    
     @media screen and (min-width: 768px){
         .p-join__box {
