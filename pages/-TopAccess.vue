@@ -1,5 +1,5 @@
 <template>
-    <div class="p-access">
+    <div class="p-access" id="anchorAccess">
         <h1 class="p-access__title">Access</h1>
         <div class="p-access__map"></div>
         <p class="p-access__address">
@@ -22,6 +22,7 @@ export default {
 
     .p-access {
         @include container();
+        padding-top: 80px;
         padding-left: 20px;
         padding-right: 20px;
         &__title {
