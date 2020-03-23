@@ -9,7 +9,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">01</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">制作会社運営スクール</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-merit__contentsSectionDescriptionText">スキル的な部分を現場の延長線で。技術顧問だから。 実際の Web 制作会社の教育プログラムをそのまま学べます。実務で活かせるのはもちろん、実質OJTを受けているのと同じです。</p>
                     </div>
                 </div>
 
@@ -18,7 +18,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">02</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">講師はプロのエンジニア</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-merit__contentsSectionDescriptionText">PHP・Vue.js を中心とするWeb制作を進めながら、技術顧問という肩書で関西の様々な制作現場の業務改善に取り組んでいます。制作現場での技術的な指導や設計レビュー、業務改善提案のほか、イベント・セミナーでの登壇など、「作る」だけでなく「伝える」ことに重きを置いた活動を続けてきました。</p>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">03</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">個別のカリキュラム</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-merit__contentsSectionDescriptionText">個人で作成しているサイトやプロジェクトなどの制作サポートを希望される方向けの個別レッスン相談にも対応させていただきます。一般的なWebスクールよりも大幅に低価格で、短期集中型のスキルアップが可能です。</p>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">04</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">アウトプット中心</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-merit__contentsSectionDescriptionText">聞くだけではなく、手を動かしながら実際に体験して学べるので短い時間でしっかり達成感を体感出来ます。ずっと気になっていたあの技術や、一人ではなかなか始められなかったコトなど気軽に相談できる環境で学んでみませんか？</p>
                     </div>
                 </div>
 

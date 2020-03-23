@@ -9,7 +9,7 @@
             </div>
             <div class="p-curriculum__sectionContent">
                 <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
-                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <p class="p-curriculum__sectionContentDescription">HTMLやCSSを基礎から学ぶことができます</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
                         <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
@@ -31,7 +31,7 @@
             </div>
             <div class="p-curriculum__sectionContent">
                 <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img02@2x.png" alt="ウィンドウのイラスト">
-                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <p class="p-curriculum__sectionContentDescription">FRONTが学べる</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
                         <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>
@@ -53,7 +53,7 @@
             </div>
             <div class="p-curriculum__sectionContent">
                 <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img03@2x.png" alt="ウィンドウのイラスト">
-                <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                <p class="p-curriculum__sectionContentDescription">BACKENDを1から学べる</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
                         <router-link class="p-curriculum__categoriesItemText" to="">HTML</router-link>

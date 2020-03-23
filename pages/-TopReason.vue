@@ -8,7 +8,7 @@
                     <div class="p-reason__pointBox">
                         <img class="p-reason__pointBoxImage" src="~/assets/images/p-reason_img01@2x.png" alt="">
                         <h3 class="c-fs20 c-textRed c-fwBold">現場で使える技術を</h3>
-                        <p class="p-reason__pointBoxDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-reason__pointBoxDescription">制作現場でプロの技術者として活躍する講師のもと、HTMLやCSS、Vue.jsやLaravelといった注目度の高い技術をテーマに、「現場で使える」生きた制作技術の習得を目指しています。</p>
                     </div>
                 </div>
                 <div class="p-reason__point">
@@ -16,7 +16,7 @@
                     <div class="p-reason__pointBox">
                         <img class="p-reason__pointBoxImage" src="~/assets/images/p-reason_img02@2x.png" alt="">
                         <h3 class="c-fs20 c-textRed c-fwBold">個別カリキュラム</h3>
-                        <p class="p-reason__pointBoxDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-reason__pointBoxDescription">個人で作成しているサイトやプロジェクトなどの制作サポートを希望される方向けの、個別レッスン相談にも対応させていただきます。一般的な Web スクールよりも大幅に低価格で、短期集中型のスキルアップが可能です。</p>
                     </div>
                 </div>
             </div>   
@@ -26,7 +26,7 @@
                     <div class="p-reason__pointBox">
                         <img class="p-reason__pointBoxImage" src="~/assets/images/p-reason_img03@2x.png" alt="">
                         <h3 class="c-fs20 c-textRed c-fwBold">自分で学べる学習スタイル</h3>
-                        <p class="p-reason__pointBoxDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-reason__pointBoxDescription">Lec Cafe はそれぞれのゴールを決めるところからスタートします。講座の進むスピードもそれぞれのせスキルレベルに応じて柔軟に変化するため、自分でやればやるほどスキルアップにかかる時間や費用を調整できます。</p>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@
                     <div class="p-reason__pointBox">
                         <img class="p-reason__pointBoxImage" src="~/assets/images/p-reason_img04@2x.png" alt="">
                         <h3 class="c-fs20 c-textRed c-fwBold">縛りなしで１ヶ月ごとの契約</h3>
-                        <p class="p-reason__pointBoxDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
+                        <p class="p-reason__pointBoxDescription">４回の技術指導で１ヶ月¥50,000(税別)から対応可能です。学生向けの無料プランもございます。制作したい内容をそえてご相談ください。</p>
                     </div>
                 </div>
             </div>
