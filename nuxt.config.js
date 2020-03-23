@@ -41,6 +41,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/google-tag-manager', { 
+      id: 'GTM-MNGQ993',
+      pageTracking: true,
+    }]
   ],
   webfontloader: {
     google: {
