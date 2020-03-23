@@ -6,7 +6,7 @@
             530-0041<br>大阪府大阪市北区天満2丁目8-17<br>天満橋パークビル 501
         </p>
         <div class="p-access__btn">
-            <router-link class="c-buttonWhite c-fs20 c-fwBold" to="">Google Map</router-link>
+            <a class="c-buttonWhite c-fs20 c-fwBold" href="https://goo.gl/maps/47MDf3vizEpWLVMe7" target="_brank">Google Map</a>
         </div>
     </div>
 </template>
