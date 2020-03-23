@@ -86,7 +86,7 @@ export default {
             position: relative;
             top: 45px;
             width: 140px;
-            height: 150px;
+            height: auto;
             z-index: 1;
         }
         &__contentsSectionDescription {

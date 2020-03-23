@@ -33,7 +33,7 @@
         z-index: 10;
         &__title {
             width: 120px;
-            height: 34px;
+            height: auto;
         }
         &__buttons {
             height: 32px;

@@ -27,10 +27,10 @@
         <div class="p-curriculum__section">
             <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
-                <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
+                <h2 class="c-fs24 c-fwBold">フロントコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img02@2x.png" alt="ウィンドウのイラスト">
                 <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
@@ -49,10 +49,10 @@
         <div class="p-curriculum__section">
             <div class="p-curriculum__sectionTitle">
                 <h3 class="c-textRed c-fs14 c-fwBold">基礎からしっかり学びたいあなたに</h3>
-                <h2 class="c-fs24 c-fwBold">初心者向けコース</h2>
+                <h2 class="c-fs24 c-fwBold">BACKENDコース</h2>
             </div>
             <div class="p-curriculum__sectionContent">
-                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img01@2x.png" alt="ウィンドウのイラスト">
+                <img class="p-curriculum__sectionContentImage" src="~/assets/images/p-curriculum_img03@2x.png" alt="ウィンドウのイラスト">
                 <p class="p-curriculum__sectionContentDescription">説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ説明文が入るよ</p>
                 <ul class="p-curriculum__categories">
                     <li class="p-curriculum__categoriesItem">
@@ -116,7 +116,7 @@ export default {
         }
         &__sectionContentImage {
             width: 100px;
-            height: 90px;
+            height: auto;
             margin-bottom: 10px;
         }
         &__sectionContentDescription {

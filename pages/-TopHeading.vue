@@ -66,7 +66,7 @@ export default {
             color: #ffffff;
 		}
 		&__descriptionImage {
-			width: 320px;
+			width: 90%;
 			margin-bottom: 20px;
 		}
 	}

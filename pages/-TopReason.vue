@@ -65,7 +65,7 @@ export default {
         }
         &__pointImage {
             width: 72px;
-            height: 72px;
+            height: auto;
             margin-left: 10px;
         }
         &__pointBox {
@@ -76,7 +76,7 @@ export default {
         &__pointBoxImage {
             display: inline-block;
             width: 80px;
-            height: 80px;
+            height: auto;
             position: relative;
             top: -50px;
         }
