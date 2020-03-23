@@ -132,6 +132,7 @@ export default {
             background-color: #E15F52;
             padding: 5px 8px;
             border-radius: 5px;
+            line-height: 1;
         }
         &__categoriesItemText {
             color: #fff;
