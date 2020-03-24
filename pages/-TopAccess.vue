@@ -38,7 +38,6 @@ export default {
         }
         &__map {
             width: 100%;
-            height: 236px;
             margin-bottom: 20px;
         }
         &__address {
@@ -53,6 +52,14 @@ export default {
         }
         &__btn a:hover {
             @include buttonWhiteHover();
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .p-access {
+            &__map {
+                height: 300px;
+            }
         }
     }
 </style>
