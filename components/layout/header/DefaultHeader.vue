@@ -44,10 +44,10 @@
             margin-left: 7px;
         }
         &__buttonsBtn:nth-child(odd):hover {
-            color: #E15F52;
+            @include buttonWhiteHover();
         }
         &__buttonsBtn:nth-child(even):hover {
-            color: #ffffff;
+            @include buttonRedHover();
         }
     }
 

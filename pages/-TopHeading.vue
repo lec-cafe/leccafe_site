@@ -22,6 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/component/button.scss";
 
 	.p-heading {
 		@include container();
@@ -60,10 +61,10 @@ export default {
 			height: 50px;
 		}
 		&__descriptionBtnsItem:nth-child(odd):hover {
-            color: #E15F52;
+            @include buttonWhiteHover();
 		}
 		&__descriptionBtnsItem:nth-child(even):hover {
-            color: #ffffff;
+            @include buttonRedHover();
 		}
 		&__descriptionImage {
 			width: 90%;

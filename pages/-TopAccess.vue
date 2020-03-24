@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/component/button.scss";
 
     .p-access {
         @include container();
@@ -51,7 +52,7 @@ export default {
             line-height: 50px;
         }
         &__btn a:hover {
-            color: #E15F52;
+            @include buttonWhiteHover();
         }
     }
 </style>

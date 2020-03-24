@@ -52,6 +52,10 @@
             font-weight: bold;
             font-size: 14px;
         }
+        &__menusItem a:hover {
+            color:#F7AC9F;
+            transition: 0.2s;
+        }
         &__hr {
             height: 2px;
             background-color: #E15F52;

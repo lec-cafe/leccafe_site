@@ -18,3 +18,13 @@
   color: #ffffff;
   width: auto;
 }
+@mixin buttonWhiteHover() {
+  background-color: #FFEDE6;
+  color: #E15F52;
+  transition: 0.2s;
+}
+@mixin buttonRedHover() {
+  background-color: #E15F52B2;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
