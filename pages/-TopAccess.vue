@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/component/button.scss";
 
     .p-access {
         @include container();
@@ -37,7 +38,6 @@ export default {
         }
         &__map {
             width: 100%;
-            height: 236px;
             margin-bottom: 20px;
         }
         &__address {
@@ -51,7 +51,15 @@ export default {
             line-height: 50px;
         }
         &__btn a:hover {
-            color: #E15F52;
+            @include buttonWhiteHover();
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .p-access {
+            &__map {
+                height: 300px;
+            }
         }
     }
 </style>

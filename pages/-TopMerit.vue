@@ -133,7 +133,7 @@ export default {
             font-weight: bold;
         }
         &__contentsDocument a:hover {
-            color: #E15F52;
+            @include buttonWhiteHover();
         }
     }
 

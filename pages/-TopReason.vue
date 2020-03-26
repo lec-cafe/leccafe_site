@@ -106,6 +106,9 @@ export default {
             &__pointBox {
                 width: 335px;
             }
+            &__pointBox h3 {
+                margin-bottom: 20px;
+            }
             &__pointImage {
                 margin-left: 10px;
                 margin-bottom: 20px;

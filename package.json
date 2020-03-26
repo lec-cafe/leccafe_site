@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/google-tag-manager": "^2.3.2",
     "nuxt": "^2.0.0",
+    "nuxt-webfontloader": "^1.1.0",
     "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
