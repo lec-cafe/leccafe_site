@@ -77,7 +77,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/mixins.scss";
 
     .p-curriculum {
         @include container();
@@ -121,6 +121,7 @@ export default {
         }
         &__sectionContentDescription {
             text-align: left;
+            @include description();
         }
         &__categories {
             padding: 0;

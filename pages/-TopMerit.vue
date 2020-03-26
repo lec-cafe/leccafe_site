@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/scss/component/button.scss";
-@import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/mixins.scss";
 
 .p-merit {
         background:linear-gradient(90deg,#E15F52 0%,#E15F52 20%,#FFEDE6 20%,#FFEDE6 100%);
@@ -107,7 +107,7 @@ export default {
         &__contentsSectionDescriptionText {
                 text-align: left;
                 color: #333333;
-                letter-spacing: 0.2em;
+                @include description();
         }
 
         &__contentsSection:nth-child(odd) {
