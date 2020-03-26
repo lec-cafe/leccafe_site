@@ -16,7 +16,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'Lec Cafe' },
       { hid: 'og:description', property: 'og:description', content: '手軽に始めるプログラミングスクール' },
-      { hid: 'og:image', property: 'og:image', content: `/static/OGP.png` },
+      { hid: 'og:image', property: 'og:image', content: 'https://lec.cafe/OPG.png' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
