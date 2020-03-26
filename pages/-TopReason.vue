@@ -50,7 +50,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/scss/mixins/container.scss";
+@import "~/assets/scss/mixins.scss";
 
     .p-reason {
         background-color: #FFEDE6;
@@ -82,9 +82,7 @@ export default {
         }
         &__pointBoxDescription {
             text-align: left;
-            line-height: 2em;
-            letter-spacing: 0.1em;
-            font-size: 14px;
+            @include description();
             padding: 0 42px;
         }
         &__pointBox h3, &__pointBox p {
