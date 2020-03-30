@@ -9,7 +9,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">01</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">制作会社運営スクール</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">スキル的な部分を現場の延長線で。技術顧問だから。 実際の Web 制作会社の教育プログラムをそのまま学べます。実務で活かせるのはもちろん、実質OJTを受けているのと同じです。</p>
+                        <p class="p-merit__contentsSectionDescriptionText">スキル的な部分を現場の延長線で。技術顧問だから。実際のWeb制作会社の教育プログラムをそのまま学べます。実務で活かせるのはもちろん、実質OJTを受けているのと同じです。</p>
                     </div>
                 </div>
 
@@ -18,7 +18,7 @@
                     <div class="p-merit__contentsSectionDescription">
                         <span class="p-merit__contentsSectionDescriptionNumber">02</span>
                         <h2 class="c-textRed c-mb20 c-fs20 c-fwBold">講師はプロのエンジニア</h2>
-                        <p class="p-merit__contentsSectionDescriptionText">PHP・Vue.js を中心とするWeb制作を進めながら、技術顧問という肩書で関西の様々な制作現場の業務改善に取り組んでいます。制作現場での技術的な指導や設計レビュー、業務改善提案のほか、イベント・セミナーでの登壇など、「作る」だけでなく「伝える」ことに重きを置いた活動を続けてきました。</p>
+                        <p class="p-merit__contentsSectionDescriptionText">PHP・Vue.jsを中心とするWeb制作を進めながら、技術顧問という肩書で関西の様々な制作現場の業務改善に取り組んでいます。制作現場での技術的な指導や設計レビュー、業務改善提案のほか、イベント・セミナーでの登壇など、「作る」だけでなく「伝える」ことに重きを置いた活動を続けてきました。</p>
                     </div>
                 </div>
 
