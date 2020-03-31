@@ -19,8 +19,8 @@
                         <p class="p-reason__pointBoxDescription">個人で作成しているサイトやプロジェクトなどの制作サポートを希望される方向けの、個別レッスン相談にも対応させていただきます。一般的なWebスクールよりも大幅に低価格で、短期集中型のスキルアップが可能です。</p>
                     </div>
                 </div>
-            </div>   
-            <div class="flex"> 
+            </div>
+            <div class="flex">
                 <div class="p-reason__point 1">
                     <img class="p-reason__pointImage" src="~/assets/images/p-reason_heading03@2x.png" alt="PCのイラスト">
                     <div class="p-reason__pointBox">
@@ -45,7 +45,7 @@
 
 <script>
 export default {
-    
+
 }
 </script>
 
@@ -99,7 +99,7 @@ export default {
             padding-bottom: 50px;
             &__point {
                 height: auto;
-                margin-top: 0px;
+                margin-top: 0;
             }
             &__pointBox {
                 width: 335px;
@@ -110,6 +110,9 @@ export default {
             &__pointImage {
                 margin-left: 10px;
                 margin-bottom: 20px;
+            }
+            &__pointBoxDescription {
+                height: 224px
             }
         }
     }
