@@ -139,7 +139,6 @@ export default {
 
     @media screen and (min-width: 768px) {
         .p-merit {
-            background:linear-gradient(90deg,#E15F52 0%,#E15F52 43%,#FFEDE6 43%,#FFEDE6 100%);
             &__container {
                 padding-bottom: 90px;
             }
@@ -162,6 +161,12 @@ export default {
             &__contentsSection:nth-child(even) &__contentsSectionDescriptionNumber {
                 left: -75px
             }
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .p-merit {
+            background: linear-gradient(90deg, #E15F52 0%, #E15F52 43%, #FFEDE6 43%, #FFEDE6 100%);
         }
     }
 </style>
